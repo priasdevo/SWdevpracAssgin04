@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="694px" preserveAspectRatio="none" style="width:258px;height:694px;background:#FFFFFF;" version="1.1" viewBox="0 0 258 694" width="258px" zoomAndPan="magnify"><defs/><g><!--MD5=[0c4920e529b92d9fed1fad24ef0385f1]
+class VacQService--><g id="elem_VacQService"><rect codeLine="1" fill="#F1F1F1" height="58.7031" id="VacQService" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="88" x="84.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="75" x="91" y="24.457">«Application»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="87.5" y="41.627">VacQService</text><line style="stroke:#181818;stroke-width:0.5;" x1="85.5" x2="171.5" y1="49.7031" y2="49.7031"/><line style="stroke:#181818;stroke-width:0.5;" x1="85.5" x2="171.5" y1="57.7031" y2="57.7031"/></g><!--MD5=[3f727ac21e4c2f7a7d3b5933db3bdd65]
+class Hospitals--><g id="elem_Hospitals"><rect codeLine="3" fill="#F1F1F1" height="93.9219" id="Hospitals" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="240" x="8.5" y="144"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="67" x="95" y="161.457">«Resource»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="100" y="178.627">Hospitals</text><line style="stroke:#181818;stroke-width:0.5;" x1="9.5" x2="247.5" y1="186.7031" y2="186.7031"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="206" x="14.5" y="205.2363">«GET» + getHospitals(): Hospital</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="228" x="14.5" y="222.8457">«POST» + createHospital(): Hospital</text><line style="stroke:#181818;stroke-width:1.0;" x1="9.5" x2="247.5" y1="229.9219" y2="229.9219"/></g><!--MD5=[4273bc46a385d6c4791fabb0cd064a50]
+class Hospital--><g id="elem_Hospital"><rect codeLine="8" fill="#F1F1F1" height="111.5313" id="Hospital" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="243" x="7" y="316"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="67" x="95" y="333.457">«Resource»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="103.5" y="350.627">Hospital</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="249" y1="358.7031" y2="358.7031"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="209" x="13" y="377.2363">«GET» + getHospital(): HospitalR</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="231" x="13" y="394.8457">«PUT» + updateHospital(): HospitalR</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="219" x="13" y="412.4551">«DELETE» + deleteHospital(): void</text><line style="stroke:#181818;stroke-width:1.0;" x1="8" x2="249" y1="419.5313" y2="419.5313"/></g><!--MD5=[ec499012e57c760b39726cba5c431bda]
+class HospitalR--><g id="elem_HospitalR"><rect codeLine="14" fill="#F1F1F1" height="181.9688" id="HospitalR" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="100" x="78.5" y="506"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="98" x="79.5" y="523.457">«Representation»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="98.5" y="540.627">HospitalR</text><line style="stroke:#181818;stroke-width:0.5;" x1="79.5" x2="177.5" y1="548.7031" y2="548.7031"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="86.5" y="560.0078"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="35" x="98.5" y="567.2363">name</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="86.5" y="577.6172"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="98.5" y="584.8457">address</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="86.5" y="595.2266"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="98.5" y="602.4551">district</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="86.5" y="612.8359"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="98.5" y="620.0645">province</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="86.5" y="630.4453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="98.5" y="637.6738">postalcode</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="86.5" y="648.0547"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="15" x="98.5" y="655.2832">tel</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="86.5" y="665.6641"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="98.5" y="672.8926">region</text><line style="stroke:#181818;stroke-width:0.5;" x1="79.5" x2="177.5" y1="679.9688" y2="679.9688"/></g><!--MD5=[0b180e7d088b3141cdf8c7eeee7e406b]
+link VacQService to Hospitals--><g id="link_VacQService_Hospitals"><path codeLine="25" d="M128.5,66.18 C128.5,86.56 128.5,114.49 128.5,138.66 " fill="none" id="VacQService-to-Hospitals" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="128.5,143.76,132.5,134.76,128.5,138.76,124.5,134.76,128.5,143.76" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="108" x="129.5" y="110.4951">/hospitals «PATH»</text></g><!--MD5=[0830a34c334e11978133d9b64b5cea45]
+link Hospitals to Hospital--><g id="link_Hospitals_Hospital"><path codeLine="26" d="M128.5,238.1 C128.5,260.24 128.5,287.07 128.5,310.8 " fill="none" id="Hospitals-to-Hospital" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="128.5,315.82,132.5,306.82,128.5,310.82,124.5,306.82,128.5,315.82" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="121" x="129.5" y="282.4951">/{hospitalID} «PATH»</text></g><!--MD5=[e5a107d3c25767c7064e86c2324fd69e]
+link Hospital to HospitalR--><g id="link_Hospital_HospitalR"><path codeLine="27" d="M128.5,428.12 C128.5,450.04 128.5,475.9 128.5,500.67 " fill="none" id="Hospital-to-HospitalR" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="128.5,505.94,132.5,496.94,128.5,500.94,124.5,496.94,128.5,505.94" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="39" x="129.5" y="472.4951">«user»</text></g><!--MD5=[8003cdb85af0b0158c38e368128d8625]
+@startuml
+class VacQService <<Application>>
+hide <<Application>> circle
+class Hospitals <<Resource>> {
+    <<GET>> + getHospitals(): Hospital
+    <<POST>> + createHospital(): Hospital
+    - -
+}
+class Hospital <<Resource>> {
+    <<GET>> + getHospital(): HospitalR
+    <<PUT>> + updateHospital(): HospitalR
+    <<DELETE>> + deleteHospital(): void
+    - -
+}
+class HospitalR <<Representation>>{
+    - name
+    - address
+    - district
+    - province
+    - postalcode
+    - tel
+    - region
+}
+hide <<Resource>> circle
+hide <<Representation>> circle
+VacQService - -> Hospitals: /hospitals <<PATH>>
+Hospitals - -> Hospital: /{hospitalID} <<PATH>>
+Hospital - -> HospitalR: <<user>>
+@enduml
+
+PlantUML version 1.2022.7(Tue Aug 23 00:01:30 ICT 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS874
+Language: en
+Country: US
+--></g></svg>
