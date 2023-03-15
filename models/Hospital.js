@@ -31,7 +31,18 @@ const HospitalSchema = new mongoose.Schema({
     region:{
         type: String,
         require: [true,"Please add a region"],
-    },
+    }, 
+},{
+        toJSON: {virtuals:true},
+        toObject:{virtuals:true},
 });
+
+//Reverse populate with virtual
+HospitalSchema.virtual('appointments',{
+    ref: 'Appointment',
+    localField: '_id',
+    foreignField: 'hospital',
+    justOne: false,
+})
 
 module.exports = mongoose.model('Hospital',HospitalSchema);
