@@ -37,6 +37,15 @@ const HospitalSchema = new mongoose.Schema({
         toObject:{virtuals:true},
 });
 
+//Cascade delete
+HospitalSchema.pre('remove',async function(next){
+    console.log(`Appointment being remove from hospital ${this._id}`)
+    await this.model('Appointment').deleteMany({hospital: this._id});
+
+    next();
+
+})
+
 //Reverse populate with virtual
 HospitalSchema.virtual('appointments',{
     ref: 'Appointment',

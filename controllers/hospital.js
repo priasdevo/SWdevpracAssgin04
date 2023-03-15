@@ -129,6 +129,8 @@ exports.deleteHospital=async (req,res,next)=>{
         if(!hospital){
             res.status(400).json({success:false});
         }
+
+        hospital.remove();
         res.status(200).json({success:true,data:{}});
     } catch(err){
         res.status(400).json({success:false});
