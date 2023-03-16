@@ -95,3 +95,23 @@ exports.updateAppointment=async (req,res,next) => {
         res.status(500).json({success:false,message:"Cannot update appointment"})
     }
 }
+
+//@desc     Delete appointment
+//@route    DELETE /api/v1/appointments/:id
+//@access   Private
+exports.deleteAppointment=async (req,res,next) => {
+    try{
+        let appointment = await Appointment.findById(req.params.id);
+
+        if(!appointment){
+            return res.status(404).json({success:false,message:`No appointment with the id of ${req.params.id}`})
+        }
+
+        await appointment.remove();
+
+        res.status(200).json({success:true,data:{}})
+    } catch(err){
+        console.log(err)
+        res.status(500).json({success:false,message:"Cannot delete appointment"})
+    }
+}
