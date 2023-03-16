@@ -73,3 +73,25 @@ exports.addAppointment=async (req,res,next) => {
         return res.status(500).json({success:false,message:"Cannot create Appointment"})
     }
 }
+
+//@desc     Update appointment
+//@route    POST /api/v1/appointments/:id
+//@access   Private
+exports.updateAppointment=async (req,res,next) => {
+    try{
+        let appointment = await Appointment.findById(req.params.id);
+
+        if(!appointment){
+            return res.status(404).json({success:false,message:`No appointment with the id of ${req.params.id}`})
+        }
+
+        appointment = await Appointment.findByIdAndUpdate(req.params.id,req.body,{
+            new:true,
+            runValidators:true,
+        })
+        res.status(200).json({success:true,data:appointment})
+    } catch(err){
+        console.log(err)
+        res.status(500).json({success:false,message:"Cannot update appointment"})
+    }
+}
